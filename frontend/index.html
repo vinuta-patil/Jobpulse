@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobMonitor — Job Aggregator</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app">
+        <!-- Top Navigation -->
+        <header class="topnav">
+            <div class="topnav-left">
+                <a href="/" class="brand">JobMonitor</a>
+                <nav class="nav-tabs">
+                    <button class="nav-tab active" data-tab="jobs" onclick="switchTab('jobs', this)">Jobs</button>
+                    <button class="nav-tab" data-tab="settings" onclick="switchTab('settings', this)">Settings</button>
+                    <button class="nav-tab" data-tab="resume" onclick="switchTab('resume', this)">Resume</button>
+                </nav>
+            </div>
+            <div class="topnav-right">
+                <div class="status" id="statusIndicator">
+                    <span class="status-dot"></span>
+                    <span class="status-label" id="statusText">Idle</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Jobs Tab -->
+        <main class="page" id="page-jobs">
+            <!-- Toolbar -->
+            <div class="toolbar">
+                <div class="toolbar-left">
+                    <div class="source-tabs" id="agentTabs">
+                        <button class="source-tab active" data-agent="" onclick="setAgentFilter(this, '')">All</button>
+                        <button class="source-tab" data-agent="agent1"
+                            onclick="setAgentFilter(this, 'agent1')">GitHub</button>
+                        <button class="source-tab" data-agent="agent2"
+                            onclick="setAgentFilter(this, 'agent2')">Adzuna</button>
+                        <button class="source-tab" data-agent="agent3"
+                            onclick="setAgentFilter(this, 'agent3')">Greenhouse</button>
+                    </div>
+                </div>
+                <div class="toolbar-right">
+                    <select id="dateFilter" class="select-input" onchange="onFilterChange()">
+                        <option value="">All time</option>
+                        <option value="today">Today</option>
+                        <option value="2days" selected>Last 2 days</option>
+                        <option value="week">This week</option>
+                        <option value="month">This month</option>
+                    </select>
+                    <span class="update-count" id="updateCount">0 jobs</span>
+                    <button class="btn btn-outline" onclick="loadUpdates()">Refresh</button>
+                </div>
+            </div>
+
+            <!-- Job Cards Grid -->
+            <div class="job-grid" id="updatesFeed">
+                <div class="empty-state">
+                    <div class="empty-icon">
+                        <svg width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5"
+                            viewBox="0 0 24 24">
+                            <path d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" />
+                        </svg>
+                    </div>
+                    <h3>No jobs yet</h3>
+                    <p>Go to <strong>Settings</strong> to add sources, then run a scan.</p>
+                </div>
+            </div>
+
+            <div id="loadMoreContainer" style="display:none; text-align:center; padding:24px;">
+                <button class="btn btn-outline" onclick="loadMoreUpdates()">Load More</button>
+            </div>
+        </main>
+
+        <!-- Settings Tab -->
+        <main class="page hidden" id="page-settings">
+            <div class="settings-layout">
+
+                <!-- Global Settings -->
+                <section class="card">
+                    <h3 class="card-title">Global Settings</h3>
+                    <p class="card-desc">Configure your default search preferences across all agents.</p>
+                    <div class="input-row">
+                        <input type="text" id="searchRoleSetting" class="text-input"
+                            placeholder="e.g. software engineer">
+                        <button class="btn btn-primary" onclick="saveSettings()">Save Role</button>
+                    </div>
+                    <p class="hint" id="settingsHint">Used as default for Adzuna searches and Greenhouse filtering</p>
+                </section>
+
+                <!-- Agent 1: GitHub Monitor -->
+                <section class="agent-section agent-github">
+                    <div class="agent-section-header">
+                        <div class="agent-section-title">
+                            <h3>GitHub Monitor</h3>
+                            <span class="agent-badge">Agent #1</span>
+                        </div>
+                        <button class="btn btn-primary" id="scanBtn" onclick="triggerScan()">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                            </svg>
+                            Scan Now
+                        </button>
+                    </div>
+
+                    <div class="agent-stats">
+                        <div class="agent-stat">
+                            <div class="agent-stat-label">Sources</div>
+                            <div class="agent-stat-value" id="githubSourceCount">0</div>
+                        </div>
+                        <div class="agent-stat">
+                            <div class="agent-stat-label">Last Scan</div>
+                            <div class="agent-stat-value" id="githubLastScan" style="font-size: 0.85rem;">Never</div>
+                        </div>
+                        <div class="agent-stat">
+                            <div class="agent-stat-label">Jobs Found</div>
+                            <div class="agent-stat-value" id="githubJobsFound">0</div>
+                        </div>
+                    </div>
+
+                    <p class="card-desc" style="margin-bottom: 12px;">Monitor GitHub repositories for job listings in README files and issues.</p>
+
+                    <div class="input-row" style="margin-bottom: 12px;">
+                        <input type="text" id="githubSourceUrl" class="text-input"
+                            placeholder="GitHub repo URL (e.g., https://github.com/user/repo)"
+                            onkeydown="if(event.key==='Enter') addGithubSource()">
+                        <button class="btn btn-primary" onclick="addGithubSource()">Add GitHub Repo</button>
+                    </div>
+
+                    <div id="githubSourceList" class="source-list"></div>
+                </section>
+
+                <!-- Agent 2: Adzuna Search -->
+                <section class="agent-section agent-adzuna">
+                    <div class="agent-section-header">
+                        <div class="agent-section-title">
+                            <h3>Adzuna Search</h3>
+                            <span class="agent-badge">Agent #2</span>
+                        </div>
+                        <button class="btn btn-primary" id="searchBtn" onclick="searchJobs()">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                            </svg>
+                            Search Now
+                        </button>
+                    </div>
+
+                    <div class="agent-stats">
+                        <div class="agent-stat">
+                            <div class="agent-stat-label">Last Search</div>
+                            <div class="agent-stat-value" id="adzunaLastSearch" style="font-size: 0.85rem;">Never</div>
+                        </div>
+                        <div class="agent-stat">
+                            <div class="agent-stat-label">Jobs Found</div>
+                            <div class="agent-stat-value" id="adzunaJobsFound">0</div>
+                        </div>
+                    </div>
+
+                    <p class="card-desc" style="margin-bottom: 12px;">Search across LinkedIn, Indeed, Glassdoor, and more via Adzuna API.</p>
+
+                    <div class="search-form">
+                        <div class="input-row">
+                            <input type="text" id="searchQuery" class="text-input" placeholder="Job title, keywords..."
+                                onkeydown="if(event.key==='Enter') searchJobs()">
+                            <input type="text" id="searchLocation" class="text-input" placeholder="Location (optional)"
+                                onkeydown="if(event.key==='Enter') searchJobs()" style="max-width:200px;">
+                        </div>
+                        <div class="filter-row">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="remoteOnly"> Remote only
+                            </label>
+                            <select id="datePosted" class="select-input select-sm">
+                                <option value="all">Any time</option>
+                                <option value="today">Today</option>
+                                <option value="3days">Last 3 days</option>
+                                <option value="week">This week</option>
+                                <option value="month">This month</option>
+                            </select>
+                            <select id="employmentType" class="select-input select-sm">
+                                <option value="">Any type</option>
+                                <option value="FULLTIME">Full-time</option>
+                                <option value="PARTTIME">Part-time</option>
+                                <option value="CONTRACTOR">Contract</option>
+                                <option value="INTERN">Internship</option>
+                            </select>
+                        </div>
+                        <p class="hint" id="searchHint">Powered by JSearch & Adzuna APIs</p>
+                    </div>
+                </section>
+
+                <!-- Agent 3: Greenhouse ATS -->
+                <section class="agent-section agent-greenhouse">
+                    <div class="agent-section-header">
+                        <div class="agent-section-title">
+                            <h3>Greenhouse ATS</h3>
+                            <span class="agent-badge">Agent #3</span>
+                        </div>
+                        <button class="btn btn-primary" id="atsScanBtn" onclick="triggerAtsScan()">
+                            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                                <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                            </svg>
+                            Scan All Companies
+                        </button>
+                    </div>
+
+                    <div class="agent-stats">
+                        <div class="agent-stat">
+                            <div class="agent-stat-label">Companies</div>
+                            <div class="agent-stat-value" id="greenhouseCompanyCount">0</div>
+                        </div>
+                        <div class="agent-stat">
+                            <div class="agent-stat-label">Last Scan</div>
+                            <div class="agent-stat-value" id="greenhouseLastScan" style="font-size: 0.85rem;">Never</div>
+                        </div>
+                        <div class="agent-stat">
+                            <div class="agent-stat-label">Jobs Found</div>
+                            <div class="agent-stat-value" id="greenhouseJobsFound">0</div>
+                        </div>
+                    </div>
+
+                    <p class="card-desc">Automatically scans Greenhouse ATS boards for configured companies. Configure companies in <code>backend/data/companies.json</code></p>
+                </section>
+
+                <!-- Chat -->
+                <section class="card">
+                    <h3 class="card-title">Ask AI</h3>
+                    <div class="chat-messages" id="chatMessages">
+                        <div class="chat-bubble assistant">Hi! I can help you with job updates. Ask me anything.</div>
+                    </div>
+                    <div class="input-row">
+                        <input type="text" id="chatInput" class="text-input" placeholder="Ask about jobs..."
+                            onkeydown="if(event.key==='Enter') sendChat()">
+                        <button class="btn btn-primary" onclick="sendChat()">Send</button>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+
+        <!-- Resume Tab -->
+        <main class="page hidden" id="page-resume">
+            <div class="settings-layout">
+
+                <!-- Resume Upload -->
+                <section class="card">
+                    <h3 class="card-title">Upload Resume</h3>
+                    <p class="card-desc">Upload your PDF resume to parse and extract structured data using AI.</p>
+                    <div class="upload-area" id="uploadArea">
+                        <input type="file" id="resumeFileInput" accept=".pdf" style="display:none" onchange="handleResumeUpload()">
+                        <div class="upload-placeholder" onclick="document.getElementById('resumeFileInput').click()">
+                            <svg width="48" height="48" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+                                <path d="M7 21h10a2 2 0 002-2V9.414a1 1 0 00-.293-.707l-5.414-5.414A1 1 0 0012.586 3H7a2 2 0 00-2 2v14a2 2 0 002 2z"/>
+                                <path d="M13 3v6h6M9 13h6M9 17h6"/>
+                            </svg>
+                            <p>Click to upload your resume (PDF)</p>
+                            <span class="hint">Made with LaTeX or any PDF format</span>
+                        </div>
+                    </div>
+                    <p class="hint" id="uploadHint"></p>
+                </section>
+
+                <!-- Parsed Resume Data -->
+                <section class="card" id="resumeDataSection" style="display:none">
+                    <div style="display:flex; justify-content:space-between; align-items:center">
+                        <h3 class="card-title">Your Resume</h3>
+                        <button class="btn btn-outline btn-sm" onclick="deleteResume()">Delete Resume</button>
+                    </div>
+
+                    <!-- Personal Info -->
+                    <div class="resume-section" id="personalInfo"></div>
+
+                    <!-- Education -->
+                    <div class="resume-section" id="education"></div>
+
+                    <!-- Experience -->
+                    <div class="resume-section" id="experience"></div>
+
+                    <!-- Skills -->
+                    <div class="resume-section" id="skills"></div>
+
+                    <!-- Projects -->
+                    <div class="resume-section" id="projects"></div>
+
+                    <!-- Certifications -->
+                    <div class="resume-section" id="certifications"></div>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Toast -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <script src="/static/app.js"></script>
+</body>
+
+</html>

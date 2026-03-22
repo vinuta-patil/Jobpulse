@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+
+# Environment variables / secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# SQLite database
+*.db
+
+# Personal data
+backend/data/resume.json
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
