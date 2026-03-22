@@ -1,0 +1,5078 @@
+[
+  {
+    "slug": "stripe",
+    "name": "Stripe",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "openai",
+    "name": "OpenAI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "airbnb",
+    "name": "Airbnb",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "notion",
+    "name": "Notion",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "figma",
+    "name": "Figma",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "databricks",
+    "name": "Databricks",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "rippling",
+    "name": "Rippling",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "anduril",
+    "name": "Anduril",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "anthropic",
+    "name": "Anthropic",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "scale",
+    "name": "Scale AI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "brex",
+    "name": "Brex",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "ramp",
+    "name": "Ramp",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "flexport",
+    "name": "Flexport",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "plaid",
+    "name": "Plaid",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "coinbase",
+    "name": "Coinbase",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "discord",
+    "name": "Discord",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "reddit",
+    "name": "Reddit",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "spotify",
+    "name": "Spotify",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "snap",
+    "name": "Snap",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "pinterest",
+    "name": "Pinterest",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "dropbox",
+    "name": "Dropbox",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "twitch",
+    "name": "Twitch",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "lyft",
+    "name": "Lyft",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "doordash",
+    "name": "DoorDash",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "instacart",
+    "name": "Instacart",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "robinhood",
+    "name": "Robinhood",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "chime",
+    "name": "Chime",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "airtable",
+    "name": "Airtable",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "asana",
+    "name": "Asana",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "clickup",
+    "name": "ClickUp",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "linear",
+    "name": "Linear",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "vercel",
+    "name": "Vercel",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "supabase",
+    "name": "Supabase",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hashicorp",
+    "name": "HashiCorp",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "datadog",
+    "name": "Datadog",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "pagerduty",
+    "name": "PagerDuty",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "confluent",
+    "name": "Confluent",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "elastic",
+    "name": "Elastic",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "mongodb",
+    "name": "MongoDB",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "cockroachlabs",
+    "name": "Cockroach Labs",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "planetscale",
+    "name": "PlanetScale",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "neon",
+    "name": "Neon",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "singlestore",
+    "name": "SingleStore",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "timescale",
+    "name": "Timescale",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "fivetran",
+    "name": "Fivetran",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "dbt-labs",
+    "name": "dbt Labs",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "airbyte",
+    "name": "Airbyte",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "prefect",
+    "name": "Prefect",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "dagster",
+    "name": "Dagster",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "weights-and-biases",
+    "name": "Weights & Biases",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "huggingface",
+    "name": "Hugging Face",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "cohere",
+    "name": "Cohere",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mistral",
+    "name": "Mistral AI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "stability",
+    "name": "Stability AI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "runwayml",
+    "name": "Runway",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "replicate",
+    "name": "Replicate",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "modal",
+    "name": "Modal",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "together-ai",
+    "name": "Together AI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "perplexityai",
+    "name": "Perplexity",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "cursor",
+    "name": "Cursor",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "replit",
+    "name": "Replit",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "gitpod",
+    "name": "Gitpod",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sourcegraph",
+    "name": "Sourcegraph",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "snyk",
+    "name": "Snyk",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "lacework",
+    "name": "Lacework",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "orca-security",
+    "name": "Orca Security",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "wiz",
+    "name": "Wiz",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "crowdstrike",
+    "name": "CrowdStrike",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sentinelone",
+    "name": "SentinelOne",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "paloaltonetworks",
+    "name": "Palo Alto Networks",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "zscaler",
+    "name": "Zscaler",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "cloudflare",
+    "name": "Cloudflare",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "fastly",
+    "name": "Fastly",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "netlify",
+    "name": "Netlify",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "fly",
+    "name": "Fly.io",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "render",
+    "name": "Render",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "railway",
+    "name": "Railway",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "digitalocean",
+    "name": "DigitalOcean",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "linode",
+    "name": "Linode",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hetzner",
+    "name": "Hetzner",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "grafana-labs",
+    "name": "Grafana Labs",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "chronosphere",
+    "name": "Chronosphere",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "honeycomb",
+    "name": "Honeycomb",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "lightstep",
+    "name": "Lightstep",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "launchdarkly",
+    "name": "LaunchDarkly",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "split",
+    "name": "Split",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "harness",
+    "name": "Harness",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "circleci",
+    "name": "CircleCI",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "buildkite",
+    "name": "Buildkite",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "pulumi",
+    "name": "Pulumi",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "env0",
+    "name": "env0",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "spacelift",
+    "name": "Spacelift",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tailscale",
+    "name": "Tailscale",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "defined-networking",
+    "name": "Defined Networking",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "teleport",
+    "name": "Teleport",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "strongdm",
+    "name": "StrongDM",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "1password",
+    "name": "1Password",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bitwarden",
+    "name": "Bitwarden",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "okta",
+    "name": "Okta",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "auth0",
+    "name": "Auth0",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "stytch",
+    "name": "Stytch",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "clerk",
+    "name": "Clerk",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "workos",
+    "name": "WorkOS",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "pangea",
+    "name": "Pangea",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "twilio",
+    "name": "Twilio",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "sendgrid",
+    "name": "SendGrid",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "messagebird",
+    "name": "MessageBird",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "vonage",
+    "name": "Vonage",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "bandwidth",
+    "name": "Bandwidth",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "livekit",
+    "name": "LiveKit",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "agora",
+    "name": "Agora",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mux",
+    "name": "Mux",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "cloudinary",
+    "name": "Cloudinary",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "imgix",
+    "name": "Imgix",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "contentful",
+    "name": "Contentful",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "sanity",
+    "name": "Sanity",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "strapi",
+    "name": "Strapi",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "prismic",
+    "name": "Prismic",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "storyblok",
+    "name": "Storyblok",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "algolia",
+    "name": "Algolia",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "typesense",
+    "name": "Typesense",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "meilisearch",
+    "name": "Meilisearch",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "pinecone",
+    "name": "Pinecone",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "weaviate",
+    "name": "Weaviate",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "qdrant",
+    "name": "Qdrant",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "chroma",
+    "name": "Chroma",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "milvus",
+    "name": "Milvus",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "zilliz",
+    "name": "Zilliz",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "samsara",
+    "name": "Samsara",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "motive",
+    "name": "Motive",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "lytx",
+    "name": "Lytx",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "geotab",
+    "name": "Geotab",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "smartcar",
+    "name": "Smartcar",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "cruise",
+    "name": "Cruise",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "waymo",
+    "name": "Waymo",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "aurora",
+    "name": "Aurora",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "nuro",
+    "name": "Nuro",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "zoox",
+    "name": "Zoox",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "argo-ai",
+    "name": "Argo AI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "rivian",
+    "name": "Rivian",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "lucid-motors",
+    "name": "Lucid Motors",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "fisker",
+    "name": "Fisker",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "canoo",
+    "name": "Canoo",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "joby-aviation",
+    "name": "Joby Aviation",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "archer-aviation",
+    "name": "Archer Aviation",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "boom-supersonic",
+    "name": "Boom Supersonic",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "relativity-space",
+    "name": "Relativity Space",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "rocket-lab",
+    "name": "Rocket Lab",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "astra",
+    "name": "Astra",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "planet",
+    "name": "Planet",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "spire",
+    "name": "Spire Global",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "momentus",
+    "name": "Momentus",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "axiom-space",
+    "name": "Axiom Space",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "vast",
+    "name": "Vast",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "varda-space",
+    "name": "Varda Space",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "impulse-space",
+    "name": "Impulse Space",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "shopify",
+    "name": "Shopify",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bigcommerce",
+    "name": "BigCommerce",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "woocommerce",
+    "name": "WooCommerce",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bolt",
+    "name": "Bolt",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "fast",
+    "name": "Fast",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "afterpay",
+    "name": "Afterpay",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "affirm",
+    "name": "Affirm",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "klarna",
+    "name": "Klarna",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sezzle",
+    "name": "Sezzle",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "marqeta",
+    "name": "Marqeta",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "lithic",
+    "name": "Lithic",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "alloy",
+    "name": "Alloy",
+    "lever_active": true,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "unit",
+    "name": "Unit",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "treasury-prime",
+    "name": "Treasury Prime",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "column",
+    "name": "Column",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "moov",
+    "name": "Moov",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "modern-treasury",
+    "name": "Modern Treasury",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "increase",
+    "name": "Increase",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mercury",
+    "name": "Mercury",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "brexinc",
+    "name": "Brex Inc",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "navan",
+    "name": "Navan",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "deel",
+    "name": "Deel",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "remote",
+    "name": "Remote",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "oyster",
+    "name": "Oyster",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "papaya-global",
+    "name": "Papaya Global",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "gusto",
+    "name": "Gusto",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "justworks",
+    "name": "Justworks",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "lattice",
+    "name": "Lattice",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "cultura",
+    "name": "Culture Amp",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "15five",
+    "name": "15Five",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "betterworks",
+    "name": "BetterWorks",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "greenhouse",
+    "name": "Greenhouse",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "lever",
+    "name": "Lever",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ashby",
+    "name": "Ashby",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "gem",
+    "name": "Gem",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "beamery",
+    "name": "Beamery",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "eightfold",
+    "name": "Eightfold AI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "phenom",
+    "name": "Phenom",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "seekout",
+    "name": "SeekOut",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "hirevue",
+    "name": "HireVue",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "codility",
+    "name": "Codility",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hackerrank",
+    "name": "HackerRank",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "karat",
+    "name": "Karat",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "codesignal",
+    "name": "CodeSignal",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "qualified",
+    "name": "Qualified",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "calendly",
+    "name": "Calendly",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "reclaim",
+    "name": "Reclaim AI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "clockwise",
+    "name": "Clockwise",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "motion",
+    "name": "Motion",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "superhuman",
+    "name": "Superhuman",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "front",
+    "name": "Front",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "intercom",
+    "name": "Intercom",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "drift",
+    "name": "Drift",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ada",
+    "name": "Ada",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "forethought",
+    "name": "Forethought",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "zendesk",
+    "name": "Zendesk",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "freshworks",
+    "name": "Freshworks",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hubspot",
+    "name": "HubSpot",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "salesforce",
+    "name": "Salesforce",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "gong",
+    "name": "Gong",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "chorus",
+    "name": "Chorus.ai",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "clari",
+    "name": "Clari",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "outreach",
+    "name": "Outreach",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "salesloft",
+    "name": "SalesLoft",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "apollo-io",
+    "name": "Apollo.io",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "zoominfo",
+    "name": "ZoomInfo",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "6sense",
+    "name": "6sense",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "demandbase",
+    "name": "Demandbase",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "qualified",
+    "name": "Qualified",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mutiny",
+    "name": "Mutiny",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "hightouch",
+    "name": "Hightouch",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "census",
+    "name": "Census",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "rudderstack",
+    "name": "RudderStack",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "segment",
+    "name": "Segment",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "amplitude",
+    "name": "Amplitude",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "mixpanel",
+    "name": "Mixpanel",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "heap",
+    "name": "Heap",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "fullstory",
+    "name": "FullStory",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "logrocket",
+    "name": "LogRocket",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "posthog",
+    "name": "PostHog",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "optimizely",
+    "name": "Optimizely",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "statsig",
+    "name": "Statsig",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "eppo",
+    "name": "Eppo",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "metabase",
+    "name": "Metabase",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mode",
+    "name": "Mode Analytics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hex",
+    "name": "Hex",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "observable",
+    "name": "Observable",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "preset",
+    "name": "Preset",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "lightdash",
+    "name": "Lightdash",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "retool",
+    "name": "Retool",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "appsmith",
+    "name": "Appsmith",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "budibase",
+    "name": "Budibase",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "internal",
+    "name": "Internal",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "airplane",
+    "name": "Airplane",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "temporal",
+    "name": "Temporal",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "inngest",
+    "name": "Inngest",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "trigger-dev",
+    "name": "Trigger.dev",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "nango",
+    "name": "Nango",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "merge-api",
+    "name": "Merge",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "finch",
+    "name": "Finch",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "codat",
+    "name": "Codat",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "apideck",
+    "name": "Apideck",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "svix",
+    "name": "Svix",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hookdeck",
+    "name": "Hookdeck",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ngrok",
+    "name": "ngrok",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "postman",
+    "name": "Postman",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "insomnia",
+    "name": "Insomnia",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "stoplight",
+    "name": "Stoplight",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "readme",
+    "name": "ReadMe",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mintlify",
+    "name": "Mintlify",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "gitbook",
+    "name": "GitBook",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "loom",
+    "name": "Loom",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "vidyard",
+    "name": "Vidyard",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "mmhmm",
+    "name": "mmhmm",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "descript",
+    "name": "Descript",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "riverside",
+    "name": "Riverside",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "frame-io",
+    "name": "Frame.io",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "canva",
+    "name": "Canva",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "miro",
+    "name": "Miro",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "whimsical",
+    "name": "Whimsical",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "excalidraw",
+    "name": "Excalidraw",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "pitch",
+    "name": "Pitch",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "gamma",
+    "name": "Gamma",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tome",
+    "name": "Tome",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "beautiful-ai",
+    "name": "Beautiful.ai",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "jasper",
+    "name": "Jasper",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "writesonic",
+    "name": "Writesonic",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "copy-ai",
+    "name": "Copy.ai",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sudowrite",
+    "name": "Sudowrite",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "coda",
+    "name": "Coda",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "almanac",
+    "name": "Almanac",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "slite",
+    "name": "Slite",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "nuclino",
+    "name": "Nuclino",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "roam-research",
+    "name": "Roam Research",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "obsidian",
+    "name": "Obsidian",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "logseq",
+    "name": "Logseq",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "craft",
+    "name": "Craft",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mem",
+    "name": "Mem",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "reflect",
+    "name": "Reflect",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "capacities",
+    "name": "Capacities",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tana",
+    "name": "Tana",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "taskade",
+    "name": "Taskade",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "height",
+    "name": "Height",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "shortcut",
+    "name": "Shortcut",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "zeplin",
+    "name": "Zeplin",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "abstract",
+    "name": "Abstract",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "lottie",
+    "name": "LottieFiles",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "rive",
+    "name": "Rive",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "spline",
+    "name": "Spline",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "webflow",
+    "name": "Webflow",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "framer",
+    "name": "Framer",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "wix",
+    "name": "Wix",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "squarespace",
+    "name": "Squarespace",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "ghost",
+    "name": "Ghost",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "substack",
+    "name": "Substack",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "beehiiv",
+    "name": "Beehiiv",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "convertkit",
+    "name": "ConvertKit",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mailchimp",
+    "name": "Mailchimp",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "klaviyo",
+    "name": "Klaviyo",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "attentive",
+    "name": "Attentive",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "postscript",
+    "name": "Postscript",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "iterable",
+    "name": "Iterable",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "braze",
+    "name": "Braze",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "customer-io",
+    "name": "Customer.io",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "onesignal",
+    "name": "OneSignal",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "appcues",
+    "name": "Appcues",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "pendo",
+    "name": "Pendo",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "gainsight",
+    "name": "Gainsight",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "totango",
+    "name": "Totango",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "vitally",
+    "name": "Vitally",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "catalyst",
+    "name": "Catalyst",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "planhat",
+    "name": "Planhat",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "churnzero",
+    "name": "ChurnZero",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "productboard",
+    "name": "Productboard",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "roadmunk",
+    "name": "Roadmunk",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "aha",
+    "name": "Aha!",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "airfocus",
+    "name": "Airfocus",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "beamer",
+    "name": "Beamer",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "canny",
+    "name": "Canny",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "uservoice",
+    "name": "UserVoice",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sentry",
+    "name": "Sentry",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bugsnag",
+    "name": "Bugsnag",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "rollbar",
+    "name": "Rollbar",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "raygun",
+    "name": "Raygun",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "jam-dev",
+    "name": "Jam.dev",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "linear",
+    "name": "Linear",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "shortcut",
+    "name": "Shortcut",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "github",
+    "name": "GitHub",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "gitlab",
+    "name": "GitLab",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "bitbucket",
+    "name": "Bitbucket",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "jfrog",
+    "name": "JFrog",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "sonatype",
+    "name": "Sonatype",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "docker",
+    "name": "Docker",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "loft-sh",
+    "name": "Loft Labs",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "d2iq",
+    "name": "D2iQ",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "rancher",
+    "name": "Rancher",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "portainer",
+    "name": "Portainer",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "weaveworks",
+    "name": "Weaveworks",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "solo-io",
+    "name": "Solo.io",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tetrate",
+    "name": "Tetrate",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "buoyant",
+    "name": "Buoyant",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "kong",
+    "name": "Kong",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tyk",
+    "name": "Tyk",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "apigee",
+    "name": "Apigee",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mulesoft",
+    "name": "MuleSoft",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "snaplogic",
+    "name": "SnapLogic",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "workato",
+    "name": "Workato",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "tray-io",
+    "name": "Tray.io",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "make",
+    "name": "Make",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "zapier",
+    "name": "Zapier",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "activepieces",
+    "name": "Activepieces",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "pipedream",
+    "name": "Pipedream",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "drata",
+    "name": "Drata",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "vanta",
+    "name": "Vanta",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "secureframe",
+    "name": "Secureframe",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "laika",
+    "name": "Laika",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "anecdotes",
+    "name": "Anecdotes",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hyperproof",
+    "name": "Hyperproof",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "tugboat-logic",
+    "name": "Tugboat Logic",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "chainalysis",
+    "name": "Chainalysis",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "elliptic",
+    "name": "Elliptic",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "trm-labs",
+    "name": "TRM Labs",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sardine",
+    "name": "Sardine",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "alloy-ai",
+    "name": "Alloy AI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "persona",
+    "name": "Persona",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "socure",
+    "name": "Socure",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "onfido",
+    "name": "Onfido",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "jumio",
+    "name": "Jumio",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "veriff",
+    "name": "Veriff",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "truework",
+    "name": "Truework",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "checkr",
+    "name": "Checkr",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "certn",
+    "name": "Certn",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "goodhire",
+    "name": "GoodHire",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hims-hers",
+    "name": "Hims & Hers",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ro",
+    "name": "Ro",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "cerebral",
+    "name": "Cerebral",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "headway",
+    "name": "Headway",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "alma",
+    "name": "Alma",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "grow-therapy",
+    "name": "Grow Therapy",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "pair-team",
+    "name": "Pair Team",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "cityblock-health",
+    "name": "Cityblock Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "devoted-health",
+    "name": "Devoted Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "clover-health",
+    "name": "Clover Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "oscar-health",
+    "name": "Oscar Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bright-health",
+    "name": "Bright Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "alignment-health",
+    "name": "Alignment Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "aledade",
+    "name": "Aledade",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bravely",
+    "name": "Bravely",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "spring-health",
+    "name": "Spring Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "lyra-health",
+    "name": "Lyra Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ginger",
+    "name": "Ginger",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "talkiatry",
+    "name": "Talkiatry",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "noom",
+    "name": "Noom",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "virta-health",
+    "name": "Virta Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "omada-health",
+    "name": "Omada Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "livongo",
+    "name": "Livongo",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tempus",
+    "name": "Tempus",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "flatiron-health",
+    "name": "Flatiron Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "veracyte",
+    "name": "Veracyte",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "grail",
+    "name": "Grail",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "guardant-health",
+    "name": "Guardant Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "freenome",
+    "name": "Freenome",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "color",
+    "name": "Color Health",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "invitae",
+    "name": "Invitae",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "23andme",
+    "name": "23andMe",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "recursion",
+    "name": "Recursion",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "insitro",
+    "name": "Insitro",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "relay-therapeutics",
+    "name": "Relay Therapeutics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "schrodinger",
+    "name": "Schr\u00f6dinger",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "valo-health",
+    "name": "Valo Health",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "benchling",
+    "name": "Benchling",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "gandeeva",
+    "name": "Gandeeva",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "terra",
+    "name": "Terra",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "whoop",
+    "name": "WHOOP",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "oura",
+    "name": "Oura",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "levels",
+    "name": "Levels",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "eight-sleep",
+    "name": "Eight Sleep",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "peloton",
+    "name": "Peloton",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "tonal",
+    "name": "Tonal",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mirror",
+    "name": "Mirror",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "lululemon",
+    "name": "Lululemon",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sweetgreen",
+    "name": "Sweetgreen",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "gopuff",
+    "name": "Gopuff",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "gorillas",
+    "name": "Gorillas",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "getir",
+    "name": "Getir",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "flink",
+    "name": "Flink",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "jokr",
+    "name": "JOKR",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "buyk",
+    "name": "Buyk",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "farmstead",
+    "name": "Farmstead",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "imperfect-foods",
+    "name": "Imperfect Foods",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "misfits-market",
+    "name": "Misfits Market",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hungry-root",
+    "name": "Hungryroot",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "daily-harvest",
+    "name": "Daily Harvest",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "factor75",
+    "name": "Factor",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "freshly",
+    "name": "Freshly",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "thistle",
+    "name": "Thistle",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "territory",
+    "name": "Territory Foods",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tock",
+    "name": "Tock",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "resy",
+    "name": "Resy",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "toast",
+    "name": "Toast",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "olo",
+    "name": "Olo",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "lightspeed",
+    "name": "Lightspeed",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "clover",
+    "name": "Clover",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "square",
+    "name": "Square",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "block",
+    "name": "Block",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "adyen",
+    "name": "Adyen",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "checkout-com",
+    "name": "Checkout.com",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "rapyd",
+    "name": "Rapyd",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "dlocal",
+    "name": "dLocal",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "circle",
+    "name": "Circle",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "paxos",
+    "name": "Paxos",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "fireblocks",
+    "name": "Fireblocks",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "anchorage",
+    "name": "Anchorage Digital",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bitgo",
+    "name": "BitGo",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "copper",
+    "name": "Copper",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "alchemy",
+    "name": "Alchemy",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "infura",
+    "name": "Infura",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "thirdweb",
+    "name": "Thirdweb",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "moralis",
+    "name": "Moralis",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tenderly",
+    "name": "Tenderly",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "openzeppelin",
+    "name": "OpenZeppelin",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "chainsafe",
+    "name": "ChainSafe",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "consensys",
+    "name": "ConsenSys",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "polygon",
+    "name": "Polygon",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "arbitrum",
+    "name": "Arbitrum",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "optimism",
+    "name": "Optimism",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "starkware",
+    "name": "StarkWare",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "matter-labs",
+    "name": "Matter Labs",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "scroll",
+    "name": "Scroll",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "eigenlayer",
+    "name": "EigenLayer",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "celestia",
+    "name": "Celestia",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "espresso-systems",
+    "name": "Espresso Systems",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "aptos",
+    "name": "Aptos",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sui",
+    "name": "Sui",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "near",
+    "name": "NEAR",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "solana-labs",
+    "name": "Solana Labs",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "avalabs",
+    "name": "Ava Labs",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "protocol-labs",
+    "name": "Protocol Labs",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "filecoin",
+    "name": "Filecoin",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "arweave",
+    "name": "Arweave",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ceramic",
+    "name": "Ceramic",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "the-graph",
+    "name": "The Graph",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "dune",
+    "name": "Dune Analytics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "nansen",
+    "name": "Nansen",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "messari",
+    "name": "Messari",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "paradigm",
+    "name": "Paradigm",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "a16z",
+    "name": "a16z",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "sequoia",
+    "name": "Sequoia",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "greylock",
+    "name": "Greylock",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "benchmark",
+    "name": "Benchmark",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "kleiner-perkins",
+    "name": "Kleiner Perkins",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "accel",
+    "name": "Accel",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "lightspeed-venture-partners",
+    "name": "Lightspeed VP",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "general-catalyst",
+    "name": "General Catalyst",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "index-ventures",
+    "name": "Index Ventures",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "insight-partners",
+    "name": "Insight Partners",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bessemer",
+    "name": "Bessemer",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "battery-ventures",
+    "name": "Battery Ventures",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "first-round-capital",
+    "name": "First Round Capital",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "y-combinator",
+    "name": "Y Combinator",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "techstars",
+    "name": "Techstars",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "500-startups",
+    "name": "500 Startups",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "founders-fund",
+    "name": "Founders Fund",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "khosla-ventures",
+    "name": "Khosla Ventures",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ivp",
+    "name": "IVP",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tiger-global",
+    "name": "Tiger Global",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "coatue",
+    "name": "Coatue",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "d1-capital",
+    "name": "D1 Capital",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "addition",
+    "name": "Addition",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "altimeter",
+    "name": "Altimeter",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "thoma-bravo",
+    "name": "Thoma Bravo",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "vista-equity",
+    "name": "Vista Equity",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hellman-friedman",
+    "name": "Hellman & Friedman",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "snowflake",
+    "name": "Snowflake",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "palantir",
+    "name": "Palantir",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "splunk",
+    "name": "Splunk",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sumo-logic",
+    "name": "Sumo Logic",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "new-relic",
+    "name": "New Relic",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "dynatrace",
+    "name": "Dynatrace",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "appdynamics",
+    "name": "AppDynamics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "servicenow",
+    "name": "ServiceNow",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "atlassian",
+    "name": "Atlassian",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "smartsheet",
+    "name": "Smartsheet",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "monday-com",
+    "name": "Monday.com",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "workday",
+    "name": "Workday",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "veeva",
+    "name": "Veeva",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bill-com",
+    "name": "Bill.com",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "coupa",
+    "name": "Coupa",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "zuora",
+    "name": "Zuora",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "chargebee",
+    "name": "Chargebee",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "recurly",
+    "name": "Recurly",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "paddle",
+    "name": "Paddle",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "lemon-squeezy",
+    "name": "Lemon Squeezy",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "gumroad",
+    "name": "Gumroad",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "patreon",
+    "name": "Patreon",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mighty-networks",
+    "name": "Mighty Networks",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "circle",
+    "name": "Circle (Community)",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "skool",
+    "name": "Skool",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "thinkific",
+    "name": "Thinkific",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "teachable",
+    "name": "Teachable",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "kajabi",
+    "name": "Kajabi",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "podia",
+    "name": "Podia",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "udemy",
+    "name": "Udemy",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "coursera",
+    "name": "Coursera",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "duolingo",
+    "name": "Duolingo",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "khan-academy",
+    "name": "Khan Academy",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "quizlet",
+    "name": "Quizlet",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "brainly",
+    "name": "Brainly",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "chegg",
+    "name": "Chegg",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "outschool",
+    "name": "Outschool",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "classdojo",
+    "name": "ClassDojo",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "remind",
+    "name": "Remind",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "schoology",
+    "name": "Schoology",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "canvas",
+    "name": "Canvas",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "instructure",
+    "name": "Instructure",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "blackboard",
+    "name": "Blackboard",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "newsela",
+    "name": "Newsela",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "age-of-learning",
+    "name": "Age of Learning",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "masterclass",
+    "name": "MasterClass",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "brilliant",
+    "name": "Brilliant",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "codecademy",
+    "name": "Codecademy",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "datacamp",
+    "name": "DataCamp",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "pluralsight",
+    "name": "Pluralsight",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "oreilly",
+    "name": "O'Reilly",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "acloudguru",
+    "name": "A Cloud Guru",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "whitehat-security",
+    "name": "WhiteHat Security",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "rapid7",
+    "name": "Rapid7",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tenable",
+    "name": "Tenable",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "qualys",
+    "name": "Qualys",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bugcrowd",
+    "name": "Bugcrowd",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "hackerone",
+    "name": "HackerOne",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "synack",
+    "name": "Synack",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "immunefi",
+    "name": "Immunefi",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "trail-of-bits",
+    "name": "Trail of Bits",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ncc-group",
+    "name": "NCC Group",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bishopfox",
+    "name": "Bishop Fox",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "mandiant",
+    "name": "Mandiant",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "recorded-future",
+    "name": "Recorded Future",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "flashpoint",
+    "name": "Flashpoint",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "intel471",
+    "name": "Intel 471",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "anomali",
+    "name": "Anomali",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "cybereason",
+    "name": "Cybereason",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "carbon-black",
+    "name": "Carbon Black",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "cylance",
+    "name": "Cylance",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "darktrace",
+    "name": "Darktrace",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "vectra",
+    "name": "Vectra AI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "exabeam",
+    "name": "Exabeam",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sumo-logic",
+    "name": "Sumo Logic",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "securonix",
+    "name": "Securonix",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "logrhythm",
+    "name": "LogRhythm",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "swimlane",
+    "name": "Swimlane",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "torq",
+    "name": "Torq",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "tines",
+    "name": "Tines",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "brinqa",
+    "name": "Brinqa",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "axonius",
+    "name": "Axonius",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "armis",
+    "name": "Armis",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "claroty",
+    "name": "Claroty",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "nozomi-networks",
+    "name": "Nozomi Networks",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "dragos",
+    "name": "Dragos",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "verkada",
+    "name": "Verkada",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "rhombus",
+    "name": "Rhombus",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ambient-ai",
+    "name": "Ambient AI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "evolv",
+    "name": "Evolv Technology",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "motorola-solutions",
+    "name": "Motorola Solutions",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "axon",
+    "name": "Axon",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "flock-safety",
+    "name": "Flock Safety",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "skydio",
+    "name": "Skydio",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "shield-ai",
+    "name": "Shield AI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "saronic",
+    "name": "Saronic",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hermeus",
+    "name": "Hermeus",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hadrian",
+    "name": "Hadrian",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "gecko-robotics",
+    "name": "Gecko Robotics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "zipline",
+    "name": "Zipline",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "wing",
+    "name": "Wing",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "matternet",
+    "name": "Matternet",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ups-flight-forward",
+    "name": "UPS Flight Forward",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "agility-robotics",
+    "name": "Agility Robotics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "boston-dynamics",
+    "name": "Boston Dynamics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "figure",
+    "name": "Figure",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "1x",
+    "name": "1X Technologies",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sanctuary-ai",
+    "name": "Sanctuary AI",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "apptronik",
+    "name": "Apptronik",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "covariant",
+    "name": "Covariant",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "locus-robotics",
+    "name": "Locus Robotics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "symbotic",
+    "name": "Symbotic",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "berkshire-grey",
+    "name": "Berkshire Grey",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "plus-one-robotics",
+    "name": "Plus One Robotics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "righthand-robotics",
+    "name": "RightHand Robotics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "osaro",
+    "name": "OSARO",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "veo-robotics",
+    "name": "Veo Robotics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ready-robotics",
+    "name": "READY Robotics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "formant",
+    "name": "Formant",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "freedomrobotics",
+    "name": "Freedom Robotics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "intrinsic",
+    "name": "Intrinsic",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "robust-ai",
+    "name": "Robust AI",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "path-robotics",
+    "name": "Path Robotics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "machina-labs",
+    "name": "Machina Labs",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "relativity-space",
+    "name": "Relativity Space",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "velo3d",
+    "name": "Velo3D",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "markforged",
+    "name": "Markforged",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "desktop-metal",
+    "name": "Desktop Metal",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "formlabs",
+    "name": "Formlabs",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "carbon3d",
+    "name": "Carbon",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "neuralink",
+    "name": "Neuralink",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "synchron",
+    "name": "Synchron",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "paradromics",
+    "name": "Paradromics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "kernel",
+    "name": "Kernel",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "dragonfly-therapeutics",
+    "name": "Dragonfly",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sana-biotechnology",
+    "name": "Sana Biotechnology",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mammoth-biosciences",
+    "name": "Mammoth Biosciences",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "intellia",
+    "name": "Intellia Therapeutics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "beam-therapeutics",
+    "name": "Beam Therapeutics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "prime-medicine",
+    "name": "Prime Medicine",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "verve-therapeutics",
+    "name": "Verve Therapeutics",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ginkgo-bioworks",
+    "name": "Ginkgo Bioworks",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "zymergen",
+    "name": "Zymergen",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "twist-bioscience",
+    "name": "Twist Bioscience",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "dna-script",
+    "name": "DNA Script",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ansa-biotechnologies",
+    "name": "Ansa Biotechnologies",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "resilience",
+    "name": "Resilience",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "national-resilience",
+    "name": "National Resilience",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "form-energy",
+    "name": "Form Energy",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ess",
+    "name": "ESS",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "ambri",
+    "name": "Ambri",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "eos-energy",
+    "name": "Eos Energy",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "quantumscape",
+    "name": "QuantumScape",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "solid-power",
+    "name": "Solid Power",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "commonwealth-fusion",
+    "name": "Commonwealth Fusion",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tae-technologies",
+    "name": "TAE Technologies",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "helion-energy",
+    "name": "Helion Energy",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "general-fusion",
+    "name": "General Fusion",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "zap-energy",
+    "name": "Zap Energy",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "carbon-engineering",
+    "name": "Carbon Engineering",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "climeworks",
+    "name": "Climeworks",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "charm-industrial",
+    "name": "Charm Industrial",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "heirloom",
+    "name": "Heirloom",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "lithos",
+    "name": "Lithos",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "twelve",
+    "name": "Twelve",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "lanzatech",
+    "name": "LanzaTech",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "verdox",
+    "name": "Verdox",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "running-tide",
+    "name": "Running Tide",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "pachama",
+    "name": "Pachama",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "watershed",
+    "name": "Watershed",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "persefoni",
+    "name": "Persefoni",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sinai",
+    "name": "Sinai Technologies",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sustain-life",
+    "name": "Sustain.Life",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sweep",
+    "name": "Sweep",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "plan-a",
+    "name": "Plan A",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "normative",
+    "name": "Normative",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "meta",
+    "name": "Meta",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "google",
+    "name": "Google",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "apple",
+    "name": "Apple",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "amazon",
+    "name": "Amazon",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "microsoft",
+    "name": "Microsoft",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "netflix",
+    "name": "Netflix",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tesla",
+    "name": "Tesla",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "uber",
+    "name": "Uber",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "twitter",
+    "name": "Twitter",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tiktok",
+    "name": "TikTok",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bytedance",
+    "name": "ByteDance",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "linkedin",
+    "name": "LinkedIn",
+    "lever_active": true,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "oracle",
+    "name": "Oracle",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ibm",
+    "name": "IBM",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "intel",
+    "name": "Intel",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "amd",
+    "name": "AMD",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "qualcomm",
+    "name": "Qualcomm",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "broadcom",
+    "name": "Broadcom",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "cisco",
+    "name": "Cisco",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "vmware",
+    "name": "VMware",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "dell",
+    "name": "Dell",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hp",
+    "name": "HP",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "samsung",
+    "name": "Samsung",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sony",
+    "name": "Sony",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "adobe",
+    "name": "Adobe",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "autodesk",
+    "name": "Autodesk",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "unity",
+    "name": "Unity",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "epic-games",
+    "name": "Epic Games",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "roblox",
+    "name": "Roblox",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "niantic",
+    "name": "Niantic",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "supercell",
+    "name": "Supercell",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "riot-games",
+    "name": "Riot Games",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bungie",
+    "name": "Bungie",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "blizzard",
+    "name": "Blizzard",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "valve",
+    "name": "Valve",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ea",
+    "name": "Electronic Arts",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "take-two",
+    "name": "Take-Two",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "zynga",
+    "name": "Zynga",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "scopely",
+    "name": "Scopely",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "jam-city",
+    "name": "Jam City",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "king",
+    "name": "King",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "playstation",
+    "name": "PlayStation",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "xbox",
+    "name": "Xbox",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "oculus",
+    "name": "Oculus",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "magic-leap",
+    "name": "Magic Leap",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "varjo",
+    "name": "Varjo",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "pimax",
+    "name": "Pimax",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "htc-vive",
+    "name": "HTC Vive",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "nreal",
+    "name": "Nreal",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "snap-labs",
+    "name": "Snap Labs",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bose",
+    "name": "Bose",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sonos",
+    "name": "Sonos",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bang-olufsen",
+    "name": "Bang & Olufsen",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "marshall",
+    "name": "Marshall",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sennheiser",
+    "name": "Sennheiser",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "audio-technica",
+    "name": "Audio-Technica",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "shure",
+    "name": "Shure",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "red-hat",
+    "name": "Red Hat",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "canonical",
+    "name": "Canonical",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "suse",
+    "name": "SUSE",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "elastic",
+    "name": "Elastic",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "couchbase",
+    "name": "Couchbase",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "redis",
+    "name": "Redis",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "neo4j",
+    "name": "Neo4j",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "tigergraph",
+    "name": "TigerGraph",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "dgraph",
+    "name": "Dgraph",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "fauna",
+    "name": "Fauna",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "upstash",
+    "name": "Upstash",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "xata",
+    "name": "Xata",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "turso",
+    "name": "Turso",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "edgedb",
+    "name": "EdgeDB",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "prisma",
+    "name": "Prisma",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hasura",
+    "name": "Hasura",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "graphbase",
+    "name": "Grafbase",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "wundergraph",
+    "name": "WunderGraph",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "stepzen",
+    "name": "StepZen",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "apollo-graphql",
+    "name": "Apollo GraphQL",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "the-guild",
+    "name": "The Guild",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "hygraph",
+    "name": "Hygraph",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "directus",
+    "name": "Directus",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "appwrite",
+    "name": "Appwrite",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "backendless",
+    "name": "Backendless",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "8base",
+    "name": "8base",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "amplication",
+    "name": "Amplication",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "encore",
+    "name": "Encore",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "wasp-lang",
+    "name": "Wasp",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "convex",
+    "name": "Convex",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "xano",
+    "name": "Xano",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "flutterflow",
+    "name": "FlutterFlow",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "draftbit",
+    "name": "Draftbit",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "adalo",
+    "name": "Adalo",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "glide",
+    "name": "Glide",
+    "lever_active": true,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "softr",
+    "name": "Softr",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "plasmic",
+    "name": "Plasmic",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "builder-io",
+    "name": "Builder.io",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "stackbit",
+    "name": "Stackbit",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "uniform",
+    "name": "Uniform",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ninetailed",
+    "name": "Ninetailed",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "dynamic-yield",
+    "name": "Dynamic Yield",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "bloomreach",
+    "name": "Bloomreach",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "commercetools",
+    "name": "Commercetools",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "fabric",
+    "name": "Fabric",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "nacelle",
+    "name": "Nacelle",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "saleor",
+    "name": "Saleor",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "medusa",
+    "name": "Medusa",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "vendure",
+    "name": "Vendure",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "solidus",
+    "name": "Solidus",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "nuvemshop",
+    "name": "Nuvemshop",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "tiendanube",
+    "name": "Tiendanube",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "vtex",
+    "name": "VTEX",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "vnda",
+    "name": "VNDA",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "magalu",
+    "name": "Magazine Luiza",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mercadolibre",
+    "name": "Mercado Libre",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "nubank",
+    "name": "Nubank",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "rappi",
+    "name": "Rappi",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ifood",
+    "name": "iFood",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "99",
+    "name": "99",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "quinto-andar",
+    "name": "QuintoAndar",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "creditas",
+    "name": "Creditas",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "neon-bank",
+    "name": "Neon Bank",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "c6-bank",
+    "name": "C6 Bank",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "stone",
+    "name": "Stone",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "pagseguro",
+    "name": "PagSeguro",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "ebanx",
+    "name": "EBANX",
+    "lever_active": false,
+    "greenhouse_active": true
+  },
+  {
+    "slug": "cloudwalk",
+    "name": "CloudWalk",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "celo",
+    "name": "Celo",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "immutable",
+    "name": "Immutable",
+    "lever_active": true,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sorare",
+    "name": "Sorare",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "dapper-labs",
+    "name": "Dapper Labs",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "sky-mavis",
+    "name": "Sky Mavis",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "yuga-labs",
+    "name": "Yuga Labs",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "animoca-brands",
+    "name": "Animoca Brands",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "mythical-games",
+    "name": "Mythical Games",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "forte-labs",
+    "name": "Forte Labs",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "stardust",
+    "name": "Stardust",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "enjin",
+    "name": "Enjin",
+    "lever_active": false,
+    "greenhouse_active": false
+  },
+  {
+    "slug": "axie-infinity",
+    "name": "Axie Infinity",
+    "lever_active": false,
+    "greenhouse_active": false
+  }
+]
